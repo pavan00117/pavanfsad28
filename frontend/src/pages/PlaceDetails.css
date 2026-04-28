@@ -1,0 +1,86 @@
+.place-details-page {
+  padding-bottom: 80px;
+}
+
+.details-hero {
+  height: 60vh;
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.hero-content-inner {
+  width: 100%;
+}
+
+.back-link {
+  display: inline-block;
+  color: var(--text-primary);
+  font-weight: 500;
+  margin-bottom: 20px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.back-link:hover {
+  opacity: 1;
+}
+
+.details-title {
+  font-size: 4rem;
+  margin-bottom: 15px;
+}
+
+.details-location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.details-content {
+  margin-top: -40px;
+  position: relative;
+  z-index: 10;
+}
+
+.details-about {
+  padding: 40px;
+  margin-bottom: 60px;
+}
+
+.details-about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--secondary-color);
+}
+
+.details-about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.homestays-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.details-loader {
+  margin-top: 150px;
+}
+
+@media (max-width: 768px) {
+  .details-title {
+    font-size: 2.5rem;
+  }
+  .details-hero {
+    height: 50vh;
+  }
+}
