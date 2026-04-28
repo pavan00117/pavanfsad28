@@ -9,7 +9,7 @@ function PlaceDetails() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/places/${id}`)
+    fetch(`https://pavanfsad28.onrender.com/api/places/${id}`)
       .then(res => {
         if (!res.ok) {
           throw new Error('Network response was not ok');

@@ -7,7 +7,7 @@ function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/places')
+    fetch('https://pavanfsad28.onrender.com/api/places')
       .then(res => res.json())
       .then(data => {
         setPlaces(data);

@@ -12,7 +12,7 @@ function MyBookings() {
       return;
     }
 
-    fetch('http://localhost:5000/api/bookings', {
+    fetch('https://pavanfsad28.onrender.com/api/bookings', {
       headers: {
         'Authorization': `Bearer ${token}`
       }
